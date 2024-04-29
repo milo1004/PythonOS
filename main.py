@@ -118,6 +118,8 @@ def start():
       elif restart == "n":
         print("Restart cancelled")
         time.sleep(1)
+    elif command == "cls" or "clear":
+      os.system('cls')
     else:
       print("Illegal command. Type 'help' for a list of commands.")
 start()
