@@ -1,0 +1,15 @@
+Thanks for choosing PythonOS!
+Before you use PythonOS, please read the Manual(This file)first.
+
+Insructions:
+    1.Please install Visual Studio Code from here: https://code.visualstudio.com/download to your computer first, this will help you run PythonOS.
+    2.Open Visual Studio Code
+    3.Double-click the 'main.py' file
+    4.Install Python Extention
+    5.Install Code Runner Extention
+    6.Click on the down button which is on the play button's left hand side
+    7.Select Run Python File to run the OS
+    8.Enjoy!(You don't need to install the OS, just run it.)
+Please write some comments if there are any bugs in this OS. Or, if you have any suggestions, just let me know.
+This software isn't developed by Python.
+But you can download this software from https://github.com/milo1004/PythonOS.git
