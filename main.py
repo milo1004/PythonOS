@@ -29,7 +29,7 @@ def start():
   print("loading properties")
   time.sleep(3)
   os.system("cls")
-  print("Welcome to PythonOS 1.1")
+  print("Welcome to PythonOS 1.2")
   time.sleep(0.5)
   print(
       "You may begin entering the commands. Type 'help' for a list of commands. Or, you may type'apps' to show a list of apps.(Update Log added to PythonOS. Type 'update log' to check the things that are updated.)"
@@ -47,6 +47,7 @@ def start():
       print("restart - restarts the computer.")
       print("cls  /  clear - clear the terminal(you can still use the computer normally.)")
       print("update log - check the update log through this command.")
+      print("sleep - put the computer to sleep, you can press Enter key to wake it up.")
       print("Note: If you want to open an app, type the app name, and add '.exe' behind.")
     elif command == "apps":
       print("apps:")
@@ -69,7 +70,7 @@ def start():
         print("shutdown cancelled")
         time.sleep(1)
     elif command == "pyver":
-      print("PythonOS 1.1")
+      print("PythonOS 1.2")
       print("Copyright © 2024, python.org")
       print("All rights reserved.")
       print("This is a free operating system. It is not endorsed by python.org")
@@ -109,11 +110,13 @@ def start():
         time.sleep(1)
     elif command == "update log":
       print("Update Log:")
-      print("DOS is no longer in the computer.")
-      print("The command 'edos' has been deleted permanently")
-      print("The file 'main.py' has been converted to an exe file.")
-      print("Added the command 'time'")
+      print("Added the command: 'Sleep'")
       time.sleep(1)
+    elif command == "sleep":
+      sleep_confirm = input("You can wake the computer by pressing Enter.(press enter to continue_)")
+      os.system("cls")
+      sleep_response = input("")
+      print("Welcome back, user!")
     elif command == "":
       print("Invalid input.")
     elif command == "cls":
