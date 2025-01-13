@@ -14,5 +14,4 @@ You can download this software from https://github.com/milo1004/PythonOS.git
 
 ### News:
   I and my 'team' are going to release a bootable edition to install.
-  Install it on a Virtual Machine is is recomended.
-  
+  Install it on a Virtual Machine is recomended. The Operating System will use a Linux Kernel, but   still, a terminal-based OS.
