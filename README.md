@@ -9,7 +9,7 @@ But this OS still uses a non-GUI mode to run.
     4.Enjoy!
     P.S. You need a Windows comouter to run this application. Linux edition coming up!
 Please report if there are any bugs in this OS. Or, if you have any suggestions, just let me know.
-This software isn't developed by Python.
+This software isn't developed by Python or Python Software Foundation.
 You can download this software from https://github.com/milo1004/PythonOS.git
 
 ### News:
