@@ -17,5 +17,4 @@ You can download this software from https://github.com/milo1004/PythonOS.git
   Install it on a Virtual Machine is recomended. The Operating System will use a Linux Kernel, but   still, a terminal-based OS.
 
 ### Docs:
-  https://milo1004.github.io
-  ---
+  For more information and downloads, please visit [here](https://milo1004.github.io/)
