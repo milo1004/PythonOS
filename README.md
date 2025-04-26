@@ -1,7 +1,6 @@
-### PythonOS
-This Operating System is made by a popular programming language called Python.
-But this OS still uses a CUI mode to run.
- 
+### PythOS
+A lightweight, Linux & Python based operating system designed for everyone.
+
 ### Installation manual:
     1.Double-click the 'main.exe' file to run the terminal
     2.Wait for it to load
