@@ -1,19 +1,66 @@
-### PythOS
-A lightweight, Linux & Python based operating system designed for everyone.
+# PythOS 6.0R
 
-### Installation manual:
-    1.Double-click the 'main.exe' file to run the terminal
-    2.Wait for it to load
-    3.Type your name or desired username
-    4.Enjoy!
-    P.S. You need a Windows computer to run this application. Linux edition coming up!
-Please report if there are any bugs in this OS. Or, if you have any suggestions, just let me know.
-This software isn't developed by Python or Python Software Foundation.
-You can download this software from https://github.com/milo1004/PythonOS.git
+A lightweight, Python-based operating system designed for educational and experimental purposes. PythOS provides a Unix-like command-line interface with a focus on simplicity and extensibility.
 
-### News:
-  I and my 'team' are going to release a bootable edition to install.
-  Install it on a Virtual Machine is recomended. The Operating System will use a Linux Kernel, but   still, a terminal-based OS.
+## Features
 
-### Docs:
-  For more information and downloads, please visit [here](https://milo1004.github.io/)
+- **Command-Line Interface**: Intuitive shell interface with command execution capabilities
+- **User Management**: Basic user system with username management
+- **File System**: Simple file system operations and management
+- **Package Support**: Built-in support for essential Python packages
+- **Custom Commands**: Extensible command system for adding new functionality
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Required Python packages:
+  - climage
+  - hex
+  - pyfiglet
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/milo1004/PythOS.git
+cd PythOS
+```
+
+2. Install required packages:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the OS:
+```bash
+python PythOS/central.py
+```
+
+## Project Structure
+
+## Available Commands
+
+- Basic system commands
+- File operations
+- User management
+- System information
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+
+- **Milo** - [GitHub Profile](https:/github.com/milo1004)
+- **Alex** - [GitHub Profile](https://github.com/alexlam0206)
+
+## Acknowledgments
+
+- Inspired by Unix-like operating systems
+- Built with Python for educational purposes
