@@ -1,4 +1,4 @@
-# PythOS 6.0R
+# PythOS 6.1
 
 A lightweight, Python-based operating system designed for educational and experimental purposes. PythOS provides a Unix-like command-line interface with a focus on simplicity and extensibility.
 
@@ -6,13 +6,13 @@ A lightweight, Python-based operating system designed for educational and experi
 
 - **Command-Line Interface**: Intuitive shell interface with command execution capabilities
 - **User Management**: Basic user system with username management
-- **File System**: Simple file system operations and management
+- **File System**: Simple and clean file system operations and management
 - **Package Support**: Built-in support for essential Python packages
 - **Custom Commands**: Extensible command system for adding new functionality
 
 ## Getting Started
 
-### Prerequisites
+### Prerequisites (Only for users who want to run from source code)
 
 - Python 3.x
 - Required Python packages:
@@ -39,13 +39,97 @@ pip install -r requirements.txt
 ```
 
 ## Project Structure
+PythOS6.1/
+│
+├── main.py
+│
+├── PythOS/
+│   ├── central.py
+│   ├── currentdir.txt
+│   ├── packages.txt
+│   │
+│   ├── bin/
+│   │   ├── arguments.txt
+│   │   ├── arguments2.txt
+│   │   ├── command.txt
+│   │   │
+│   │   ├── apt/
+│   │   │   └── apt.py
+│   │   │
+│   │   ├── bash/
+│   │   │   └── bash.py
+│   │   │
+│   │   ├── cat/
+│   │   │   └── cat.py
+│   │   │
+│   │   ├── cd/
+│   │   │   └── cd.py
+│   │   │
+│   │   ├── clear/
+│   │   │   └── clear.py
+│   │   │
+│   │   ├── cls/
+│   │   │   └── cls.py
+│   │   │
+│   │   ├── date/
+│   │   │   └── date.py
+│   │   │
+│   │   ├── help/
+│   │   │   └── help.py
+│   │   │
+│   │   ├── install/
+│   │   │   └── install.py
+│   │   │
+│   │   ├── ls/
+│   │   │   └── ls.py
+│   │   │
+│   │   ├── ping/
+│   │   │   └── ping.py
+│   │   │
+│   │   ├── pwd/
+│   │   │   └── pwd.py
+│   │   │
+│   │   ├── pyver/
+│   │   │   ├── MIT License.txt
+│   │   │   ├── pyver.py
+│   │   │   └── version.txt
+│   │   │
+│   │   ├── reboot/
+│   │   │   ├── arguments.txt
+│   │   │   ├── argumentsexplained.txt
+│   │   │   ├── reboot_now.py
+│   │   │   ├── reboot_refresh.py
+│   │   │   └── reboot.py
+│   │   │
+│   │   └── time/
+│   │       └── time.py
+│   │
+│   ├── boot/
+│   │   ├── boot.py
+│   │   ├── currentdir.txt
+│   │   ├── install.py
+│   │   ├── logon.py
+│   │   ├── PythOS.png
+│   │   ├── PythOSLogo.txt
+│   │   ├── setup.py
+│   │   ├── show_info.py
+│   │   ├── Terms and Services.txt
+│   │   └── timeusedtf.txt
+│   │
+│   ├── shs/
+│   │   ├── boot.sh
+│   │   ├── boot2.sh
+│   │   ├── boot3.sh
+│   │   ├── boot4.sh
+│   │   ├── entercentral.sh
+│   │   ├── logon.sh
+│   │   └── rebootrefresh.sh
+│   │
+│   └── userdata/
+│       ├── passwd.txt
+│       └── username.txt
 
-## Available Commands
 
-- Basic system commands
-- File operations
-- User management
-- System information
 
 ## Contributing
 
@@ -62,5 +146,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Inspired by Unix-like operating systems
-- Built with Python for educational purposes
+- Inspired by Unix-like operating systems and shell commanding systems
+- Built with Python and shell command files for educational purposes
