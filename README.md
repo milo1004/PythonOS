@@ -14,6 +14,7 @@ A lightweight, Python-based operating system designed for educational and experi
 
 ### Caution!!
   There are some bugs in the cd commad. if change the directory by typing in /[folder] (any directory that starts with a /), it wouldn't recognize. So please first cd to / first, and then cd to the targetted directory.
+  
   If you plan to run PythOS by source code, we recommend you to run in root, since the code was made specifically for Alpine minimal filesystem.
   Read instructions below 👇 
 
