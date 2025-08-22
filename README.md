@@ -12,7 +12,7 @@ A lightweight, Python-based operating system designed for educational and experi
 
 ## Getting Started
 
-## Caution!!
+### Caution!!
   If you plan to run PythOS by source code, we recommend you to run in root, since the code was made specifically for Alpine minimal filesystem.
   Read instructions below 👇 
 
