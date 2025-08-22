@@ -12,9 +12,13 @@ A lightweight, Python-based operating system designed for educational and experi
 
 ## Getting Started
 
+## Caution!!
+  If you plan to run PythOS by source code, we recommend you to run in root, since the code was made specifically for Alpine minimal filesystem.
+  Read instructions below 👇 
+
 ### Prerequisites (Only for users who want to run from source code)
 
-- Python 3.x
+- Python 3.11 or newer
 - Required Python packages:
   - climage
   - hex
