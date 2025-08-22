@@ -43,7 +43,8 @@ pip install -r requirements.txt
 ```
 
 ## Project Structure
-```PythOS6.1/
+```
+PythOS6.1/
 │
 ├── main.py
 │
