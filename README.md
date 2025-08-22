@@ -131,7 +131,8 @@ pip install -r requirements.txt
 │   │
 │   └── userdata/
 │       ├── passwd.txt
-│       └── username.txt```
+│       └── username.txt
+```
 
 
 
