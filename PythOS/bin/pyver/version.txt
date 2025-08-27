@@ -1,4 +1,0 @@
-ver:6.0
-codename:NewCore
-buildno.:20250526
-channel:beta
