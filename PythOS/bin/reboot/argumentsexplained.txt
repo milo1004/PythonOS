@@ -1,0 +1,2 @@
+-now   --  Reboots immediately and fully reboot the computer if the system resulted an error.
+-refresh  --  Refreshes code of PythOS. (Not recommended for normal users)
