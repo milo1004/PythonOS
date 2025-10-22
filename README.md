@@ -41,3 +41,75 @@ Grab the latest ISO from [Archive.org](https://archive.org/details/pyth-os-6.1-x
 3. Unmount the drive:
    ```bash
    sudo umount /dev/sda1
+
+
+1. Flash the ISO:sudo dd if=pythos.iso of=/dev/sda bs=200M status=progress
+
+2. Reboot and boot from USB via GRUB.
+
+
+---
+
+⚙️ Run from Source (Advanced)
+
+Recommended for developers or testing in a virtual environment.
+
+Requirements
+
+• Python 3.10+
+• Packages: climage, hex, pyfiglet
+
+
+Setup
+
+git clone https://github.com/milo1004/PythonOS.git
+cd PythonOS
+pip install -r requirements.txt
+python3 -m venv venv
+source venv/bin/activate
+python3 main.py
+
+
+---
+
+📁 Project Structure
+
+PythonOS/
+├── main.py
+├── PythOS/
+│   ├── central.py
+│   ├── currentdir.txt
+│   ├── packages.txt
+│   ├── bin/
+│   │   ├── [command folders: cd, ls, ping, etc.]
+│   ├── boot/
+│   ├── userdata/
+│   └── assets/
+
+
+---
+
+🐞 Known Issues
+
+• cd does not support absolute paths starting with /.
+Workaround: run cd / first, then navigate.
+
+
+---
+
+🤝 Contributing
+
+Pull requests are welcome! Fork the repo and submit your improvements.
+
+---
+
+📜 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+👥 Authors
+
+• @milo1004
+• @alexlam0206
