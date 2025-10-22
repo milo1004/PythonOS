@@ -13,7 +13,7 @@ A lightweight, Python-based operating system designed for educational and experi
 ## Getting Started
 	To get started, you can download the ISO from this website: https://archive.org/details/pyth-os-6.1-x-86-64-beta
 	Note: the ISO provided is only supported for x64 bit devices, and Live mode is currently the only boot mode. Persistent mode coming soon~
-  Windows: 
+  ## Windows: 
   	1. Download Rufus from rufus.ie or the Microsoft Store
 		2. Launch Rufus and flash the ISO into a USB (512 MB+)
     3. Reboot the PC
@@ -22,21 +22,30 @@ A lightweight, Python-based operating system designed for educational and experi
 		6. Select `PythOS` in the GRUB menu and enjoy! (Rebooting or shuttng down WILL RESET ALL CHANGES MADE ON PYTHOS, does not affect Windows)
     Note: The reboot and shutdown commands does not work yet. Long press the power button to shutdown or CTRL-ALT-DEL to reboot.
 
-  Linux:
+  ## Linux:
 		1. Open terminal and cd to the directory of the ISO
+
     2. Plug in a USB and type `lsblk`
+
 		3. Remember the drive you want to flash listed (e.g. `/dev/sda1`)
+
 		4. Umount the drive (don't type in sudo if not installed)
 			```bash
 			sudo umount /dev/sda1
 			```
+
     5. Flash the ISO to the drive
+
 			```bash
 			sudo dd if=path/to/iso.iso of=/dev/sda1 bs=200M status=progress
 			```
+
 		6. Reboot the PC
+
     7. Enter boot menu (usually by pressing esc, F2, F10, F12 or del)
+
     8. Select to boot from your USB
+
     9. Select `PythOS` in the GRUB menu and enjoy! (Rebooting or shuttng down WILL RESET ALL CHANGES MADE ON PYTHOS, does not affect Linux)
 
 ### Caution!!
