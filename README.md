@@ -30,10 +30,12 @@ Note: The reboot and shutdown commands does not work yet. Long press the power b
 3. Remember the drive you want to flash listed (e.g. `/dev/sda1`)
 
 4. Umount the drive (don't type in sudo if not installed)
-			sudo umount /dev/sda1
+			
+				sudo umount /dev/sda1
 
 5. Flash the ISO to the drive
-			sudo dd if=path/to/iso.iso of=/dev/sda1 bs=200M status=progress
+			
+				sudo dd if=path/to/iso.iso of=/dev/sda1 bs=200M status=progress
 
 6. Reboot the PC
 
