@@ -91,7 +91,7 @@ PythonOS/
 
 🐞 Known Issues
 
-• cd does not support absolute paths starting with /.
+• `cd` does not support absolute paths starting with /.
 Workaround: run cd / first, then navigate.
 
 
@@ -112,4 +112,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 👥 Authors
 
 • @milo1004
+
 • @alexlam0206
