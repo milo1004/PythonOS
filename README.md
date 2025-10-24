@@ -42,7 +42,6 @@ Grab the latest ISO from [Archive.org](https://archive.org/details/pyth-os-6.1-x
    ```bash
    sudo umount /dev/sda1
 
-
 1. Flash the ISO:sudo dd if=pythos.iso of=/dev/sda bs=200M status=progress
 
 2. Reboot and boot from USB via GRUB.
@@ -61,19 +60,22 @@ Requirements
 
 
 Setup
-
+```bash
 git clone https://github.com/milo1004/PythonOS.git
+```
+
+```bash
 cd PythonOS
 pip install -r requirements.txt
 python3 -m venv venv
 source venv/bin/activate
 python3 main.py
-
+```
 
 ---
 
 📁 Project Structure
-
+```
 PythonOS/
 ├── main.py
 ├── PythOS/
@@ -85,32 +87,43 @@ PythonOS/
 │   ├── boot/
 │   ├── userdata/
 │   └── assets/
-
+```
 
 ---
 
-🐞 Known Issues
+### 🐞 Known Issues
 
 • `cd` does not support absolute paths starting with /.
 Workaround: run cd / first, then navigate.
 
+---
+
+### Star History
+
+<a href="https://www.star-history.com/#milo1004/PythonOS&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=milo1004/PythonOS&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=milo1004/PythonOS&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=milo1004/PythonOS&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ---
 
-🤝 Contributing
+### 🤝 Contributing
 
 Pull requests are welcome! Fork the repo and submit your improvements.
 
 ---
 
-📜 License
+### 📜 License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/milo1004/PythonOS/blob/main/LICENSE) file for details.
 
 ---
 
-👥 Authors
+### 👥 Authors
 
-• @milo1004
+• [@milo1004](https://github.com/milo1004)
 
-• @alexlam0206
+• [@alexlam0206](https://nok.is-a.dev/)
