@@ -16,7 +16,10 @@ A lightweight, Python-based operating system designed for educational and experi
 
 ## 💾 Download
 
-Grab the latest ISO from [Archive.org](https://archive.org/details/pyth-os-6.1-x-86-64-beta).  
+Grab the latest ISO from
+1. [Cloudflare CDN](https://pub-82ab0a5f170545b6a7c996fdcda3838b.r2.dev/PythOS6.1-x86_64-beta.iso)
+2. [Archive.org](https://archive.org/details/pyth-os-6.1-x-86-64-beta).
+
 **Note**: Only x64 devices are supported. Live mode only (persistent mode coming soon).
 
 ---
@@ -46,6 +49,8 @@ Grab the latest ISO from [Archive.org](https://archive.org/details/pyth-os-6.1-x
 
 2. Reboot and boot from USB via GRUB.
 
+---
+**PythOS Imager coming soon!**
 
 ---
 
