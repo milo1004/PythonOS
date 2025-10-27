@@ -50,7 +50,26 @@ Grab the latest ISO from
 2. Reboot and boot from USB via GRUB.
 
 ---
-**PythOS Imager coming soon!**
+## PythOS Imager
+### 1. GUI (Coming soon...)
+### 2. CLI
+#### Platforms
+- macOS
+- Linux
+
+<br>
+
+You may download the PythOS Imager from the
+
+[PythOS-Imager](https://github.com/alexlam0206/PythOS-Imager/)
+
+#### Installation
+
+```bash
+npm install pythos-imager
+```
+
+Visit the [repo](https://github.com/alexlam0206/PythOS-Imager/) for more details.
 
 ---
 
